@@ -1,0 +1,29 @@
+{
+  "time_format": {
+    "type": "string",
+    "default": "[玩家时间:%Y-%m-%d %H:%M:%S]",
+    "description": "时间格式字符串，使用Python的strftime格式"
+  },
+  "timezone": {
+    "type": "string",
+    "default": "local",
+    "options": ["local", "utc"],
+    "description": "时区设置，可以是'local'（本地时间）或'utc'（UTC时间）"
+  },
+  "prefix": {
+    "type": "string",
+    "default": "",
+    "description": "时间戳前添加的前缀文本"
+  },
+  "suffix": {
+    "type": "string",
+    "default": "",
+    "description": "时间戳后添加的后缀文本"
+  },
+  "position": {
+    "type": "string",
+    "default": "before",
+    "options": ["before", "after"],
+    "description": "时间戳位置，'before'表示在提示词前，'after'表示在提示词后"
+  }
+}

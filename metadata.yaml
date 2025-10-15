@@ -1,5 +1,5 @@
 name: astrbot_plugin_timeline
 desc: 一个非常简单的插件，在请求中插入当前时间
-version: v1.0
+version: v1.1
 author: ctrlkk
 repo: https://github.com/ctrlkk/astrbot_plugin_timeline
